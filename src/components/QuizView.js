@@ -7,7 +7,7 @@ const QuizView = ({ questions, currentQuestion, handleAnswerClick }) => {
       <div className="question">
         <div className="question-number">
           <span>
-            Question {currentQuestion + 1} / {questions.length}
+            Intrebarea {currentQuestion + 1} / {questions.length}
           </span>
         </div>
         <div className="question-text">
