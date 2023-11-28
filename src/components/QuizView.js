@@ -16,8 +16,8 @@ const QuizView = ({ questions, currentQuestion, handleAnswerClick }) => {
       </div>
 
       <div className="answer">
-        {questions[currentQuestion].answers.map(({ text, isCorrect }) => (
-          <button key={text} onClick={() => handleAnswerClick(isCorrect)}>
+        {questions[currentQuestion].answers.map(({ text, isWine, isVodka, isWhiskey, isBeer  }) => (
+          <button key={text} onClick={() => handleAnswerClick(isWine, isVodka, isWhiskey, isBeer)}>
             {text}
           </button>
         ))}
