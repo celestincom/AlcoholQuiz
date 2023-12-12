@@ -38,7 +38,7 @@ function App() {
         { text: "Ascultător", isWine: true},
         { text: "Comunicativ", isVodka: true },
         { text: "Observator", isWhiskey: true },
-        { text: "Lider", isBeer: true },
+        { text: "Purtător de cuvânt", isBeer: true },
       ],
     },
     {
